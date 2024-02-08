@@ -2,6 +2,8 @@
 
 This project consists of a set of Solidity smart contracts for creating a mixed `ERC20`/`ERC721` token standard called `ERC404` and a concrete implementation of this standard named Pandora. Additionally, it includes a deployment script written in TypeScript and an environment configuration file.
 
+<br>
+
 ## Contracts
 
 ### ERC404.sol
@@ -17,13 +19,13 @@ This project consists of a set of Solidity smart contracts for creating a mixed 
 
 If you want to create your own ERC404 token, you can use `ERC404.sol` as a base and extend it with your own functionalities. For here, you can use `Pandora.sol` as an example.
 
+<br>
+
 ## Deployment Script
 
 ### deploy.ts
 
 `deploy.ts` is a TypeScript deployment script used to deploy the Pandora contract onto the EVM blockchain. It utilizes Hardhat for EVM chain development and interacts with the EVM chain using ethers.js. 
-
-## Environment Variables
 
 ### .env.example
 
@@ -33,6 +35,8 @@ If you want to create your own ERC404 token, you can use `ERC404.sol` as a base 
 - **ADDRESS_ADMIN**: Ethereum address corresponding to the admin wallet.
 - **BSC_SCAN_API**: API key for BscScan, if needed for contract verification or other purposes.
 - **BNB_RPC**: RPC endpoint for interacting with the BNB Chain (BSC) network.
+
+<br>
 
 ## Usage
 
